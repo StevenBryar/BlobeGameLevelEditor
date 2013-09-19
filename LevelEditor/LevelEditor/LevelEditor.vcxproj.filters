@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Base\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Base\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="inputListener.cpp">
+      <Filter>Base\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="inputManager.cpp">
+      <Filter>Base\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageHandler.cpp">
+      <Filter>Base\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="2dSprite.cpp">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="spriteManager.cpp">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManager.cpp">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Base\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="constants.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="level.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="uiButton.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="uiElement.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="uiListMenu.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="uiTextBox.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="uiTextTag.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="BlobGameConstants.cpp">
+      <Filter>LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEditor.cpp">
+      <Filter>LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEditorMenu.cpp">
+      <Filter>LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="tile.cpp">
+      <Filter>LevelEditor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{1a8984db-0ff6-4b5c-aaac-76853da99d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Common">
+      <UniqueIdentifier>{edf0004b-ca21-4e7f-823c-1a3e20702aed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Input">
+      <UniqueIdentifier>{c32a8308-0117-4fde-853b-1c3616ca64bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Message">
+      <UniqueIdentifier>{dfbbecba-a19b-4a68-ac92-594d8d6d2d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Render">
+      <UniqueIdentifier>{7b5acf58-909a-4ad2-a414-444f5477e5c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Util">
+      <UniqueIdentifier>{6431bea9-ec76-4ffc-ad5b-cda7b0fb973a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{90b94f2d-5eb0-4cca-8b1a-7b56d1b8aa68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelEditor">
+      <UniqueIdentifier>{25b3fcb7-2a73-43a1-8140-0bcad02b7f7c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>Base\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMath.h">
+      <Filter>Base\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Base\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Base\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inputListener.h">
+      <Filter>Base\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="inputManager.h">
+      <Filter>Base\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageHandler.h">
+      <Filter>Base\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageListener.h">
+      <Filter>Base\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="2dSprite.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="spriteManager.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="TextManager.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Base\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="uiButton.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="uiElement.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="uiListMenu.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="uiTextBox.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="uiTextTag.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="BlobGameConstants.h">
+      <Filter>LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEditor.h">
+      <Filter>LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEditorMenu.h">
+      <Filter>LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="tile.h">
+      <Filter>LevelEditor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
