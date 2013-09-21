@@ -10,7 +10,8 @@ m_Height(64),m_Width(64),m_Name(""),
 m_Sprite(NULL){}
 
 GameObject::~GameObject(){
-	SpriteManager::instance()->deleteSprite(m_Sprite);
+	SpriteManager::instance()->deleteSprite(this);
+	m_Sprite = NULL;
 }
 void GameObject::update(){}
 

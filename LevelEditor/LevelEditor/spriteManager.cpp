@@ -59,7 +59,6 @@ void SpriteManager::deleteSprite(GameObject* owner){
 		if(iterator->second->m_Owner == owner){
 			SafePtrRelease(iterator->second);
 			m_Sprites->erase(iterator);
-			break;
 		}
 	}
 }
